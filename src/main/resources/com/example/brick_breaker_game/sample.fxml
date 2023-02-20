@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.shape.Sphere?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="scene" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="410.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.brick_breaker_game.Controller">
+   <children>
+      <Rectangle fx:id="rod" arcHeight="5.0" arcWidth="5.0" fill="DODGERBLUE" height="15.0" layoutX="315.0" layoutY="344.0" stroke="BLACK" strokeType="INSIDE" width="70.0" />
+      <Label fx:id="score" layoutX="14.0" layoutY="14.0" prefHeight="27.0" prefWidth="161.0" text="Score:">
+         <font>
+            <Font name="System Bold Italic" size="18.0" />
+         </font>
+      </Label>
+      <Canvas fx:id="canvas" height="410.0" width="700.0" />
+      <Sphere fx:id="ball" layoutX="350.0" layoutY="205.0" radius="8.0" rotate="-1.8" translateY="50.0" />
+   </children>
+</AnchorPane>
